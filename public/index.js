@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactDOM, { createRoot } from "react-dom/client";
 import Header from "../src/components/Header";
 import Footer from "../src/components/Footer";
@@ -7,14 +7,27 @@ import HomePage from "../src/pages/HomePage";
 import CartPage from "../src/pages/CartPage";
 import AboutPage from "../src/pages/AboutPage";
 import ContactPage from "../src/pages/ContactPage";
-import LoginPage from "../src/pages/LoginPage";
+import UserPage from "../src/pages/UserPage";
+import UserContext from "../src/utils/UserContext";
+import Login from "../src/components/LoginIn";
+import Logout from "../src/components/Logout";
 function App() {
+	const [userLoginName, setUserLoginName] = useState("Guest");
+	const [liveLoginStatus, setLiveLoginStatus] = useState(false);
 	return (
-		<div className="relative w-screen h-screen overflow-hidden">
-			<Header></Header>
-			<Outlet></Outlet>
-			<Footer></Footer>
-		</div>
+		<UserContext.Provider
+			value={{
+				userName: userLoginName,
+				loginStatus: liveLoginStatus,
+				setLiveLoginStatus,
+				setUserLoginName,
+			}}>
+			<div className="relative w-screen h-screen overflow-hidden">
+				<Header></Header>
+				<Outlet></Outlet>
+				<Footer></Footer>
+			</div>
+		</UserContext.Provider>
 	);
 }
 
@@ -40,8 +53,18 @@ const routing = createBrowserRouter([
 				element: <CartPage></CartPage>,
 			},
 			{
-				path: "/login",
-				element: <LoginPage></LoginPage>,
+				path: "/user",
+				element: <UserPage></UserPage>,
+				children: [
+					{
+						path: "/user/",
+						element: <Login></Login>,
+					},
+					{
+						path: "/user/logout",
+						element: <Logout></Logout>,
+					},
+				],
 			},
 		],
 	},

@@ -1,30 +1,26 @@
 import React from "react";
+import "remixicon/fonts/remixicon.css";
 
 const AboutPage = () => {
 	return (
-		<div className="h-5/6 overflow-y-scroll p-2 flex items-center">
-			<div className="md:w-8/12 flex flex-col gap-10 px-4">
-				<h4 className="md:text-xl lg:text-5xl font-bold text-blue-950 text-center">DishDazzle Delights</h4>
-				<p className="md:tex lg:text-lg">
-					✨ Welcome to DishDazzle, where every bite is a celebration and every
-					dish is a star! 🌟 Immerse yourself in a world of culinary
-					enchantment, where flavors dance and ingredients shine. 🍽✨ Our
-					kitchen is a symphony of tastes, a spectacle of ingredients, and a
-					feast for the senses. Join us on this gastronomic journey, where each
-					dish is not just a meal but a moment of pure delight. 🎉 Let your
-					taste buds sparkle with joy as we bring you the finest in food and the
-					magic of memorable dining experiences. ✨✨ DishDazzle - where every
-					dish is a showstopper and every meal is a masterpiece! 🌈🍷
-					#DishDazzleDelights #CulinaryMagic #FlavorfulFeasts
+		<div className="h-5/6 bg-blue-50 px-2 gap-2 flex flex-col-reverse justify-center md:py-5 md:gap-5 md:items-center  lg:gap-10 lg:flex-row">
+			<div className="lg:w-8/12 h-1/2 flex flex-col md:gap-5 lg:gap-10 text-center">
+				<h4 className="text-2xl md:text-4xl lg:text-5xl font-bold text-blue-950 ">
+					DishDazzle: A Culinary Extravaganza
+				</h4>
+				<p className="text-md md:text-lg">
+					Step into the enchanting world of DishDazzle, where every dish is a
+					culinary masterpiece. Our menu is a symphony of flavors, a dance of
+					spices, and a celebration of exquisite tastes. Join us in savoring the
+					extraordinary, as DishDazzle transforms dining into an unforgettable
+					experience.
 				</p>
 			</div>
-			<div className="flex md:w-4/12 lg:flex-col lg:items-center lg:gap-4">
-				<img
-					src="https://economictimes.indiatimes.com/photo/71229479.cms"
-					className="w-full h-full rounded-xl border-4 border-blue-200 p-1"
-					alt=""
-				/>
-			</div>
+			<img
+				src="https://www.dealsshutter.com/blog/wp-content/uploads/2020/01/food-577222_1280.jpg"
+				className="w-full md:w-2/3 md:h-1/2 lg:w-4/12 lg:h-5/6 rounded-full border-4 border-blue-200 p-2"
+				alt=""
+			/>
 		</div>
 	);
 };

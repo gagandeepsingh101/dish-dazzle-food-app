@@ -1,8 +1,11 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import "remixicon/fonts/remixicon.css";
+import UserContext from "../utils/UserContext";
 
 const Header = () => {
+	const { userName, loginStatus } = useContext(UserContext);
+	console.log(userName, loginStatus);
 	const [tooggleMenu, setToggleMenu] = useState(false);
 	function handleToogleMenu(e) {
 		const navList =
@@ -12,20 +15,19 @@ const Header = () => {
 			menu[0].classList.add("hidden");
 			menu[1].classList.remove("hidden");
 			navList[0].classList.remove("opacity-0");
-			navList[0].classList.add("translate-y-2");
-			navList[0].classList.remove("translate-y-0");
-			setToggleMenu(true);
+			navList[0].classList.add("translate-y-0");
+			navList[0].classList.add("-translate-y-full");
 		} else {
 			menu[1].classList.add("hidden");
 			menu[0].classList.remove("hidden");
 			navList[0].classList.add("opacity-0");
-			navList[0].classList.add("translate-y-0");
-			navList[0].classList.remove("translate-y-2");
+			navList[0].classList.remove("-translate-y-full");
+			navList[0].classList.remove("translate-y-0");
 			setToggleMenu(false);
 		}
 	}
 	return (
-		<div className="h-1/6 w-full overflow-hidden bg-blue-200 flex items-center justify-between p-4 lg:px-8">
+		<div className="h-20 md:h-1/6 w-full overflow-hidden bg-blue-200 flex items-center justify-between p-4 lg:px-8">
 			<div className="cursor-pointer flex items-center justify-center gap-2 md:flex-col">
 				<img
 					className=" w-10 h-10 lg:w-16 lg:h-16"
@@ -36,8 +38,7 @@ const Header = () => {
 					DishDazzle
 				</h4>
 			</div>
-			<button
-				onClick={(e) => handleToogleMenu(e)}>
+			<button onClick={(e) => handleToogleMenu(e)}>
 				<i className="ri-menu-line font-bold md:hidden text-3xl text-blue-950"></i>
 				<i className="ri-close-fill hidden font-bold md:hidden text-3xl text-blue-950"></i>
 			</button>
@@ -55,7 +56,7 @@ const Header = () => {
 					<Link to={"/cart"}>Cart</Link>
 				</li>
 				<li className="cursor-pointer text-lg font-bold hover:bg-blue-800 hover:text-white px-3 py-1 rounded-lg lg:text-2xl">
-					<Link to={"/login"}>Login</Link>
+					<Link to={loginStatus ? "/user/logout" : "/user/"}> {loginStatus ? "Logout" : "Login"}</Link>
 				</li>
 			</ul>
 		</div>
