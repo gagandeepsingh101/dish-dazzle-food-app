@@ -4,8 +4,7 @@ import "remixicon/fonts/remixicon.css";
 import UserContext from "../utils/UserContext";
 
 const Header = () => {
-	const { userName, loginStatus } = useContext(UserContext);
-	console.log(userName, loginStatus);
+	const { loginStatus } = useContext(UserContext);
 	const [tooggleMenu, setToggleMenu] = useState(false);
 	function handleToogleMenu(e) {
 		const navList =
@@ -14,23 +13,25 @@ const Header = () => {
 		if (!tooggleMenu) {
 			menu[0].classList.add("hidden");
 			menu[1].classList.remove("hidden");
-			navList[0].classList.remove("opacity-0");
+			navList[0].classList.remove("hidden");
+			navList[0].classList.add("flex");
 			navList[0].classList.add("translate-y-0");
 			navList[0].classList.add("-translate-y-full");
 		} else {
 			menu[1].classList.add("hidden");
 			menu[0].classList.remove("hidden");
-			navList[0].classList.add("opacity-0");
+			navList[0].classList.add("hidden");
+			navList[0].classList.remove("flex");
 			navList[0].classList.remove("-translate-y-full");
 			navList[0].classList.remove("translate-y-0");
-			setToggleMenu(false);
 		}
+		setToggleMenu(!tooggleMenu);
 	}
 	return (
 		<div className="h-20 md:h-1/6 w-full overflow-hidden bg-blue-200 flex items-center justify-between p-4 lg:px-8">
 			<div className="cursor-pointer flex items-center justify-center gap-2 md:flex-col">
 				<img
-					className=" w-10 h-10 lg:w-16 lg:h-16"
+					className="w-10 h-10"
 					srcSet="https://www.freeiconspng.com/uploads/food-icon-7.png"
 					alt=""
 				/>
@@ -42,7 +43,7 @@ const Header = () => {
 				<i className="ri-menu-line font-bold md:hidden text-3xl text-blue-950"></i>
 				<i className="ri-close-fill hidden font-bold md:hidden text-3xl text-blue-950"></i>
 			</button>
-			<ul className="opacity-0 absolute bg-blue-200 w-1/2 h-fit top-16 p-3 right-0 flex flex-col gap-3 items-center transition duration-500 ease-out rounded-bl-3xl md:opacity-100 md:translate-x-0 md:relative md:w-fit md:h-fit md:rounded-bl-none md:bg-transparent md:flex-row md:top-0  lg:gap-8">
+			<ul className=" z-50  hidden absolute bg-blue-200 w-1/2 h-fit top-16 p-3 right-0 flex-col gap-3 items-center transition duration-500 ease-out rounded-bl-3xl md:opacity-100 md:translate-x-0 md:relative md:block md:flex-row md:w-fit md:h-fit md:rounded-bl-none md:bg-transparent md:flex md:flex-row md:top-0  lg:gap-8">
 				<li className="cursor-pointer text-lg font-bold hover:bg-blue-800 hover:text-white px-3 py-1 rounded-lg lg:text-2xl">
 					<Link to={"/"}>Home</Link>
 				</li>

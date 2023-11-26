@@ -1,0 +1,2232 @@
+[
+    {
+        "info": {
+            "id": "361172",
+            "name": "Burger Farm",
+            "cloudinaryImageId": "e8avnyvqur7u7hbxboio",
+            "locality": "Ridhi Sidhi Enclave",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Burgers",
+                "Ice Cream"
+            ],
+            "avgRating": 4,
+            "feeDetails": {
+                "restaurantId": "361172",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "4660",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "1K+",
+            "promoted": true,
+            "adTrackingId": "cid=9593868~p=1~eid=0000018c-072c-320e-6d0c-2aad00d30143~srvts=1700927386126~45826",
+            "sla": {
+                "deliveryTime": 18,
+                "lastMileTravel": 2.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "18 mins",
+                "lastMileTravelString": "2.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=361172",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "459567",
+            "name": "The Spicy Saga",
+            "cloudinaryImageId": "z0vnyr2ufktodp6dkd4s",
+            "locality": "Jawahar Nagar",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+                "North Indian",
+                "Chinese",
+                "American"
+            ],
+            "avgRating": 3.8,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "459567",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "214193",
+            "avgRatingString": "3.8",
+            "totalRatingsString": "500+",
+            "sla": {
+                "deliveryTime": 18,
+                "lastMileTravel": 0.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "18 mins",
+                "lastMileTravelString": "0.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 22:49:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                    "description": "pureveg"
+                                }
+                            }
+                        ]
+                    },
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹299",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=459567",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "230243",
+            "name": "Pratap Vaishno Dhaba",
+            "cloudinaryImageId": "hg8trnh2fmbzdscpisas",
+            "locality": "Sector 17",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹100 for two",
+            "cuisines": [
+                "North Indian",
+                "Biryani"
+            ],
+            "avgRating": 3.4,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "230243",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "160724",
+            "avgRatingString": "3.4",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 19,
+                "lastMileTravel": 1.1,
+                "serviceability": "SERVICEABLE",
+                "slaString": "19 mins",
+                "lastMileTravelString": "1.1 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 23:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                    "description": "pureveg"
+                                }
+                            }
+                        ]
+                    },
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹150 OFF",
+                "subHeader": "ABOVE ₹249",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=230243",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "151998",
+            "name": "Down Town Cafe",
+            "cloudinaryImageId": "bihx6du5xu4cykohvlzl",
+            "locality": "Block G",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹100 for two",
+            "cuisines": [
+                "Pizzas",
+                "Fast Food",
+                "Chinese",
+                "Pastas",
+                "Ice Cream",
+                "Desserts"
+            ],
+            "avgRating": 3.9,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "151998",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "74489",
+            "avgRatingString": "3.9",
+            "totalRatingsString": "5K+",
+            "promoted": true,
+            "adTrackingId": "cid=9556401~p=3~eid=0000018c-072c-320e-6d0c-2aaf00d30332~srvts=1700927386126~45826",
+            "sla": {
+                "deliveryTime": 20,
+                "lastMileTravel": 1.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20 mins",
+                "lastMileTravelString": "1.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 23:59:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                    "description": "pureveg"
+                                }
+                            }
+                        ]
+                    },
+                    "textExtendedBadges": {},
+                    "textBased": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹249",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=151998",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "152255",
+            "name": "American's Pizza With A Twist",
+            "cloudinaryImageId": "azjtcreuc4jxenmfjpdb",
+            "locality": "Block P",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+                "Pastas",
+                "Burgers",
+                "Ice Cream",
+                "Pizzas"
+            ],
+            "avgRating": 3.4,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "152255",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "31506",
+            "avgRatingString": "3.4",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 21,
+                "lastMileTravel": 2.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "21 mins",
+                "lastMileTravelString": "2.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-26 02:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textExtendedBadges": {},
+                    "textBased": {},
+                    "imageBased": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=152255",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "159219",
+            "name": "Chanderlok Hotel & Restaurant",
+            "cloudinaryImageId": "jt9hjbds4r4wzhwccque",
+            "locality": "Hardeep Colony",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹149 for two",
+            "cuisines": [
+                "Pastas",
+                "Chinese",
+                "Burgers",
+                "Ice Cream",
+                "Biryani"
+            ],
+            "avgRating": 4,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "159219",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "57767",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 18,
+                "lastMileTravel": 0.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "18 mins",
+                "lastMileTravelString": "0.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 23:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                    "description": "pureveg"
+                                }
+                            }
+                        ]
+                    },
+                    "textExtendedBadges": {}
+                }
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=159219",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "416082",
+            "name": "Anandam Restaurant",
+            "cloudinaryImageId": "gogxonpimpfz2tyceagb",
+            "locality": "Block G",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+                "North Indian"
+            ],
+            "avgRating": 4.2,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "416082",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "32885",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "100+",
+            "promoted": true,
+            "adTrackingId": "cid=9556432~p=5~eid=0000018c-072c-320e-6d0c-2ab200d3050c~srvts=1700927386126~45826",
+            "sla": {
+                "deliveryTime": 29,
+                "lastMileTravel": 1.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "29 mins",
+                "lastMileTravelString": "1.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 23:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                    "description": "pureveg"
+                                }
+                            }
+                        ]
+                    },
+                    "textExtendedBadges": {}
+                }
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=416082",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "274147",
+            "name": "The Bonfire",
+            "cloudinaryImageId": "mif7l1gmmfglfacegcgq",
+            "locality": "Saraswati Nagar",
+            "areaName": "Sri Ganganagar Locality",
+            "costForTwo": "₹149 for two",
+            "cuisines": [
+                "North Indian",
+                "Biryani"
+            ],
+            "avgRating": 3.8,
+            "feeDetails": {
+                "restaurantId": "274147",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "205684",
+            "avgRatingString": "3.8",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 17,
+                "lastMileTravel": 0.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "17 mins",
+                "lastMileTravelString": "0.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 23:58:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+                        "description": "OnlyOnSwiggy"
+                    },
+                    {
+                        "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+                        "description": "OnlyOnSwiggy"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+                                    "description": "OnlyOnSwiggy"
+                                }
+                            },
+                            {
+                                "attributes": {
+                                    "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+                                    "description": "OnlyOnSwiggy"
+                                }
+                            }
+                        ]
+                    },
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=274147",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "151994",
+            "name": "Yummy Rolls",
+            "cloudinaryImageId": "oxeftnfrbe70ogummfzb",
+            "locality": "Block P",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹149 for two",
+            "cuisines": [
+                "North Indian",
+                "Burgers",
+                "Ice Cream",
+                "Pizzas"
+            ],
+            "avgRating": 4,
+            "feeDetails": {
+                "restaurantId": "151994",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "228742",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 20,
+                "lastMileTravel": 2.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20 mins",
+                "lastMileTravelString": "2.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=151994",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "151992",
+            "name": "Talk Of The Town, Bahl Foods",
+            "cloudinaryImageId": "q3d8ozj36kx27us2khlp",
+            "locality": "Kotwali Road",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹149 for two",
+            "cuisines": [
+                "North Indian",
+                "Biryani"
+            ],
+            "avgRating": 3.9,
+            "feeDetails": {
+                "restaurantId": "151992",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "200312",
+            "avgRatingString": "3.9",
+            "totalRatingsString": "1K+",
+            "promoted": true,
+            "adTrackingId": "cid=9556400~p=6~eid=0000018c-072c-320e-6d0c-2ab300d30656~srvts=1700927386126~45826",
+            "sla": {
+                "deliveryTime": 22,
+                "lastMileTravel": 2.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "22 mins",
+                "lastMileTravelString": "2.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹50 OFF",
+                "subHeader": "ABOVE ₹249",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=151992",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "538406",
+            "name": "Shaina Cafe",
+            "cloudinaryImageId": "t6jchid5nzeslx7to6gb",
+            "locality": "Ridhi Sidhi Mall",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Fast Food"
+            ],
+            "avgRating": 3.8,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "538406",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "180939",
+            "avgRatingString": "3.8",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 21,
+                "lastMileTravel": 2.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "21 mins",
+                "lastMileTravelString": "2.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 22:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                    "description": "pureveg"
+                                }
+                            }
+                        ]
+                    },
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=538406",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "668596",
+            "name": "Apna Vaishno Dhaba",
+            "cloudinaryImageId": "4b0a80423a5bf1443493578a8a09dd63",
+            "locality": "Mukharjee Nagar",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Indian",
+                "Desserts"
+            ],
+            "avgRating": 4,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "668596",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "16369",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "20+",
+            "sla": {
+                "deliveryTime": 26,
+                "lastMileTravel": 2.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "26 mins",
+                "lastMileTravelString": "2.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 22:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=668596",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "152251",
+            "name": "TIPSY by Desert Gold",
+            "cloudinaryImageId": "d0a24240cc6350a003fc9c7d48c882d7",
+            "locality": "Meera Marg",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Pastas",
+                "Desserts",
+                "Chinese",
+                "North Indian",
+                "Burgers",
+                "Ice Cream",
+                "Pizzas",
+                "Biryani"
+            ],
+            "avgRating": 3.6,
+            "feeDetails": {
+                "restaurantId": "152251",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "374948",
+            "avgRatingString": "3.6",
+            "totalRatingsString": "100+",
+            "promoted": true,
+            "adTrackingId": "cid=9556403~p=7~eid=0000018c-072c-320e-6d0c-2ab400d3071a~srvts=1700927386126~45826",
+            "sla": {
+                "deliveryTime": 19,
+                "lastMileTravel": 1.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "19 mins",
+                "lastMileTravelString": "1.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textExtendedBadges": {},
+                    "textBased": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹249",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=152251",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "615515",
+            "name": "Cakes",
+            "cloudinaryImageId": "ypkn32su1echzuqa5w0c",
+            "locality": "Jawahar Nagar",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹600 for two",
+            "cuisines": [
+                "Bakery"
+            ],
+            "avgRating": 2.6,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "615515",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "4861",
+            "avgRatingString": "2.6",
+            "totalRatingsString": "20+",
+            "sla": {
+                "deliveryTime": 19,
+                "lastMileTravel": 1.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "19 mins",
+                "lastMileTravelString": "1.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 22:30:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                    "description": "pureveg"
+                                }
+                            }
+                        ]
+                    },
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=615515",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "741922",
+            "name": "Cake",
+            "cloudinaryImageId": "24092d9db646efb22e9937b0c62dafac",
+            "locality": "Meera Chock",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹399 for two",
+            "cuisines": [
+                "Bakery"
+            ],
+            "avgRating": 3.5,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "741922",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "3862",
+            "avgRatingString": "3.5",
+            "totalRatingsString": "8",
+            "sla": {
+                "deliveryTime": 19,
+                "lastMileTravel": 1.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "19 mins",
+                "lastMileTravelString": "1.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 23:20:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                    "description": "pureveg"
+                                }
+                            }
+                        ]
+                    },
+                    "textExtendedBadges": {}
+                }
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "isNewlyOnboarded": true,
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=741922",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "153155",
+            "name": "Fooderia",
+            "cloudinaryImageId": "p1riypgnnojvgl0dtikq",
+            "locality": "Sector 17",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+                "Pastas",
+                "Chinese",
+                "Burgers",
+                "Biryani"
+            ],
+            "avgRating": 2.8,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "153155",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "82304",
+            "avgRatingString": "2.8",
+            "totalRatingsString": "1K+",
+            "promoted": true,
+            "adTrackingId": "cid=9556408~p=8~eid=0000018c-072c-320e-6d0c-2ab500d3086d~srvts=1700927386126~45826",
+            "sla": {
+                "deliveryTime": 17,
+                "lastMileTravel": 1.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "17 mins",
+                "lastMileTravelString": "1.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 23:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                    "description": "pureveg"
+                                }
+                            }
+                        ]
+                    },
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=153155",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "739555",
+            "name": "Snakkers",
+            "cloudinaryImageId": "5425c8bec985c70b464a29ac6ca1ceeb",
+            "locality": "Jawahar Nagar",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹249 for two",
+            "cuisines": [
+                "Fast Food",
+                "Pizzas",
+                "Pastas"
+            ],
+            "avgRating": 4.2,
+            "feeDetails": {
+                "restaurantId": "739555",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "21794",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "50+",
+            "sla": {
+                "deliveryTime": 17,
+                "lastMileTravel": 0.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "17 mins",
+                "lastMileTravelString": "0.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 23:59:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "10% OFF",
+                "subHeader": "UPTO ₹40"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "isNewlyOnboarded": true,
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=739555",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "680493",
+            "name": "Rasoi",
+            "cloudinaryImageId": "fcee676df41abe3fa8b474ece9d2b77d",
+            "locality": "Jawahar Nagar",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹298 for two",
+            "cuisines": [
+                "Beverages",
+                "Chinese",
+                "Indian",
+                "Thalis"
+            ],
+            "avgRating": 3.9,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "680493",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "764",
+            "avgRatingString": "3.9",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 16,
+                "lastMileTravel": 0.2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "16 mins",
+                "lastMileTravelString": "0.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 23:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                    "description": "pureveg"
+                                }
+                            }
+                        ]
+                    },
+                    "textExtendedBadges": {},
+                    "textBased": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=680493",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "157822",
+            "name": "Shree Ram Balaji Dhaba",
+            "cloudinaryImageId": "qlrhdababkwfm8bawd8y",
+            "locality": "Setia Colony",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+                "North Indian",
+                "Biryani"
+            ],
+            "avgRating": 4.2,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "157822",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "185345",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "1K+",
+            "promoted": true,
+            "adTrackingId": "cid=9432477~p=9~eid=0000018c-072c-320e-6d0c-2ab700d3092c~srvts=1700927386126~45826",
+            "sla": {
+                "deliveryTime": 22,
+                "lastMileTravel": 2.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "22 mins",
+                "lastMileTravelString": "2.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 23:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textExtendedBadges": {},
+                    "textBased": {}
+                }
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=157822",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "331880",
+            "name": "Punjabi Tadka",
+            "cloudinaryImageId": "bjgrjw1bw30vx7fb4cau",
+            "locality": "Adarsh Nagar Road",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+                "Indian",
+                "Chinese"
+            ],
+            "avgRating": 3.7,
+            "feeDetails": {
+                "restaurantId": "331880",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "435887",
+            "avgRatingString": "3.7",
+            "totalRatingsString": "10+",
+            "sla": {
+                "deliveryTime": 21,
+                "lastMileTravel": 2.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "21 mins",
+                "lastMileTravelString": "2.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 22:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "25% OFF",
+                "subHeader": "UPTO ₹65"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=331880",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "198073",
+            "name": "Raj Sheronz and Raj lemon & Jeera",
+            "cloudinaryImageId": "rrz3ltl5ktywrbmxip1w",
+            "locality": "Kedar Chowk",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹100 for two",
+            "cuisines": [
+                "Chinese",
+                "South Indian",
+                "North Indian",
+                "Continental",
+                "Desserts",
+                "Italian",
+                "Beverages",
+                "Mughlai",
+                "Punjabi",
+                "Hyderabadi"
+            ],
+            "avgRating": 3.6,
+            "feeDetails": {
+                "restaurantId": "198073",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "165084",
+            "avgRatingString": "3.6",
+            "totalRatingsString": "500+",
+            "promoted": true,
+            "adTrackingId": "cid=9480075~p=10~eid=0000018c-072c-320e-6d0c-2ab800d30a45~srvts=1700927386126~45826",
+            "sla": {
+                "deliveryTime": 22,
+                "lastMileTravel": 3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "22 mins",
+                "lastMileTravelString": "3.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 22:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "10% OFF",
+                "subHeader": "UPTO ₹40"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=198073",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "177259",
+            "name": "Punjabi Dhaba",
+            "cloudinaryImageId": "ozayywaiews52ajwq9in",
+            "locality": "Setia Colony",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "North Indian",
+                "Punjabi"
+            ],
+            "avgRating": 1.6,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "177259",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "1476",
+            "avgRatingString": "1.6",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 26,
+                "lastMileTravel": 1.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "26 mins",
+                "lastMileTravelString": "1.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 23:01:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textExtendedBadges": {},
+                    "textBased": {},
+                    "imageBased": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "10% OFF",
+                "subHeader": "UPTO ₹100"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=177259",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "151990",
+            "name": "Sip & Bite",
+            "cloudinaryImageId": "zcotw9pv1l8mbjxmqs9l",
+            "locality": "Block G",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹100 for two",
+            "cuisines": [
+                "Pastas",
+                "Desserts",
+                "Chinese",
+                "Burgers",
+                "Ice Cream",
+                "Pizzas"
+            ],
+            "avgRating": 3.7,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "151990",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "188690",
+            "avgRatingString": "3.7",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 23,
+                "lastMileTravel": 1.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "23 mins",
+                "lastMileTravelString": "1.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 23:59:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                    "description": "pureveg"
+                                }
+                            }
+                        ]
+                    },
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹249",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=151990",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "608093",
+            "name": "Silver Spoon",
+            "cloudinaryImageId": "ypxmi489woqjtxalkzg6",
+            "locality": "Block A",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Burgers",
+                "Pizzas",
+                "Beverages"
+            ],
+            "avgRating": 4.6,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "608093",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "11717",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "10+",
+            "sla": {
+                "deliveryTime": 22,
+                "lastMileTravel": 2.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "22 mins",
+                "lastMileTravelString": "2.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 23:45:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                    "description": "pureveg"
+                                }
+                            }
+                        ]
+                    },
+                    "textExtendedBadges": {},
+                    "textBased": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "30% OFF",
+                "subHeader": "UPTO ₹75"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=608093",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "438355",
+            "name": "Hudson Chopsticks",
+            "cloudinaryImageId": "csdr52szfuon6z2wmjpv",
+            "locality": "Ridhi Sidhi Mall",
+            "areaName": "Saraswati Nagar",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Chinese",
+                "Thai",
+                "Asian",
+                "Snacks",
+                "Tibetan",
+                "Nepalese",
+                "Pan-Asian",
+                "Seafood",
+                "Beverages",
+                "Desserts",
+                "Barbecue",
+                "Grill",
+                "Fast Food"
+            ],
+            "avgRating": 4,
+            "feeDetails": {
+                "restaurantId": "438355",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1400
+            },
+            "parentId": "7129",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "500+",
+            "sla": {
+                "deliveryTime": 20,
+                "lastMileTravel": 2.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20 mins",
+                "lastMileTravelString": "2.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-25 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textExtendedBadges": {},
+                    "textBased": {}
+                }
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=438355",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    }
+]
