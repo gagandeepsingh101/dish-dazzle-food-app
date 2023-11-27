@@ -11,6 +11,8 @@ import UserPage from "../src/pages/UserPage";
 import UserContext from "../src/utils/UserContext";
 import Login from "../src/components/LoginIn";
 import Logout from "../src/components/Logout";
+import RestaurantsMenuList from "../src/components/RestaurantsMenuList";
+
 function App() {
 	const [userLoginName, setUserLoginName] = useState("Guest");
 	const [liveLoginStatus, setLiveLoginStatus] = useState(false);
@@ -39,6 +41,10 @@ const routing = createBrowserRouter([
 			{
 				path: "/",
 				element: <HomePage></HomePage>,
+			},
+			{
+				path: "/menu/:resturantId/:resturantName",
+				element: <RestaurantsMenuList></RestaurantsMenuList>,
 			},
 			{
 				path: "/about",

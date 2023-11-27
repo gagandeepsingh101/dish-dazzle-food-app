@@ -3,7 +3,7 @@ import "remixicon/fonts/remixicon.css";
 
 const AboutPage = () => {
 	return (
-		<div className="h-5/6 bg-blue-50 px-2 gap-2 flex flex-col-reverse justify-center md:py-5 md:gap-5 md:items-center  lg:gap-10 lg:flex-row">
+		<div className="h-5/6 md:h-5/6 bg-blue-50 px-2 gap-2 flex flex-col-reverse justify-center md:py-5 md:gap-5 md:items-center  lg:gap-10 lg:flex-row">
 			<div className="lg:w-8/12 h-1/2 flex flex-col md:gap-5 lg:gap-10 text-center">
 				<h4 className="text-2xl md:text-4xl lg:text-5xl font-bold text-blue-950 ">
 					DishDazzle: A Culinary Extravaganza
