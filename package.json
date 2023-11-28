@@ -1,13 +1,13 @@
 {
-  "homepage": "https://gagandeepsingh101.github.io/food-ordering-app/",
+  "homepage": "https://gagandeepsingh101.github.io/food-ordering-app",
   "name": "food-ordering-app",
   "version": "1.0.0",
   "description": "\"Create Food App\"",
-  "main": "index.js",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-page -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "jest",
+    "build": "parcel build .\\public\\index.html",
     "start": "npx parcel .\\public\\index.html"
   },
   "author": "",
@@ -25,6 +25,7 @@
     "yup": "^1.3.2"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.0",
     "parcel": "^2.10.3",
     "postcss": "^8.4.31",
     "process": "^0.11.10",
