@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { RESTAURANTS_API } from "./constant";
-import * as restaurants from "./mockdata.json";
+import * as restaurants from "./restaurantCardMockData.json";
 export const useFetchRestaurants = (
 	setDefaultRestaurants,
 	setRestaurantsList
@@ -12,7 +12,6 @@ export const useFetchRestaurants = (
 		try {
 			const response = await fetch(RESTAURANTS_API);
 			const data = await response.json();
-			console.log(data);
 			setTimeout(() => {
 				setDefaultRestaurants(
 					data?.data?.success?.cards[1]?.gridWidget?.gridElements?.infoWithStyle
@@ -26,10 +25,10 @@ export const useFetchRestaurants = (
 		} catch (error) {
 			console.log(error);
 			alert("Add extension cors to show data from swiggy");
-			// setTimeout(() => {
-			// 	setDefaultRestaurants(restaurants);
-			// 	setRestaurantsList(restaurants);
-			// }, 1000);
+			setTimeout(() => {
+				setDefaultRestaurants(restaurants);
+				setRestaurantsList(restaurants);
+			}, 1000);
 		}
 	};
 };

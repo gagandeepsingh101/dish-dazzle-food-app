@@ -15,7 +15,7 @@ const ContactPage = () => {
 			.required("Required"),
 	});
 	return (
-		<div className="h-5/6 md:h-5/6 flex flex-col md:flex-row-reverse items-center justify-center">
+		<div className="h-[80vh] flex flex-col md:flex-row-reverse items-center justify-center">
 			<img
 				srcSet="https://img.freepik.com/free-vector/flat-design-illustration-customer-support_23-2148887720.jpg?w=740&t=st=1700769019~exp=1700769619~hmac=0b07f971e3a34e0c87e2254259ede4e6bff70f3b6bc3ac69245b9713331fe62c"
 				className="hidden md:block md:w-1/2  -z-50 lg:p-20"

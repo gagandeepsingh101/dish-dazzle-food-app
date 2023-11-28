@@ -6,7 +6,7 @@ const UserPage = () => {
 		loginStatus,
 	} = useContext(UserContext);
 	return (
-		<div className=" h-screen md:h-5/6 flex items-center py-10">
+		<div className=" h-[80vh] flex items-center py-10">
 			<div className="w-full lg:w-1/2 flex flex-col gap-1">
 			<h1 className="text-4xl font-bold text-blue-950 text-center md:text-5xl">{loginStatus?"Logout Page":"Login Page"}</h1>
 				<Outlet></Outlet>

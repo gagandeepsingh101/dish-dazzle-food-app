@@ -1,20 +1,20 @@
 import React from "react";
 
 const FilterRestaurants = (props) => {
-    const { defaultRestaurants, setRestaurantsList, setNotFiltered } = props;
+	const { defaultRestaurants, setRestaurantsList, setNotFiltered ,notFiltered} = props;
 	const filterTopRatingRestaurants = (e, filterBasis) => {
 		e.preventDefault();
 		let filteredRestaurants = [];
 		filteredRestaurants = defaultRestaurants.filter((restaurant) => {
 			switch (filterBasis) {
 				case "rating":
-					return restaurant?.info?.avgRating >= 4;
+					return restaurant?.info?.avgRating > 4.5;
 				case "time":
 					return restaurant?.info?.sla?.deliveryTime < 25;
 				case "cost":
 					return (
 						Number(restaurant?.info?.costForTwo.split(" ")[0].split("₹")[1]) <
-						200
+						250
 					);
 				case "veg":
 					return restaurant?.info?.veg === true;
@@ -22,6 +22,12 @@ const FilterRestaurants = (props) => {
 					return restaurant;
 			}
 		});
+
+		if (notFiltered===true && filteredRestaurants.length >0) {
+			setNotFiltered(false);
+		}
+		setRestaurantsList([]);
+
 		setTimeout(() => {
 			if (filteredRestaurants.length === 0) {
 				setNotFiltered(true);
@@ -40,7 +46,7 @@ const FilterRestaurants = (props) => {
 					filterTopRatingRestaurants(e, filterBasis);
 				}}
 				className="min-w-max h-fit ml-48  md:w-1/4 px-4 py-2 bg-blue-100 rounded-3xl hover:bg-blue-900 hover:text-white md:ml-0">
-				Rating 4+.
+				Rating 4.5+.
 			</button>
 			<button
 				name="time"

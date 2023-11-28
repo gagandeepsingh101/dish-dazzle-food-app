@@ -28,7 +28,7 @@ const Header = () => {
 		setToggleMenu(!tooggleMenu);
 	}
 	return (
-		<div className="h-20 md:h-1/6 w-full overflow-hidden bg-blue-200 flex items-center justify-between p-4 lg:px-8">
+		<div className="h-[15vh] w-full overflow-hidden bg-blue-200 flex items-center justify-between p-4 lg:px-8">
 			<div className="cursor-pointer flex items-center justify-center gap-2 md:flex-col">
 				<img
 					className="w-10 h-10"

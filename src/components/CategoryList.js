@@ -19,15 +19,15 @@ const CategoryList = (props) => {
 	}
 
 	return (
-		<div className=" bg-blue-100 rounded-xl w-10/12 mx-auto ">
+		<div className=" bg-blue-100 rounded-xl w-11/12 mx-auto  p-2 my-2">
 			<div
 				onClick={(e) => handleShowItems(index, e)}
 				className="flex justify-between p-4 rounded-xl bg-blue-300">
-				<h1 className="text-lg">{categoryList?.title}</h1>
+				<h1 className=" truncate font-bold text-blue-900 text-sm md:text-lg">{categoryList?.title}</h1>
 				<i className="ri-triangle-fill text-blue-900 rotate-180"></i>
 			</div>
 
-			<div className="w-full my-3">
+			<div className="w-full h-full ">
 				{showItem &&
 					categoryItemList?.map((items) => (
 						<CategoryItemList

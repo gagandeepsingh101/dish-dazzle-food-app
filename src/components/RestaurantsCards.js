@@ -42,8 +42,8 @@ const RestaurantsCards = (props) => {
 					/>
 					<p>{avgRating}</p>
 					<span className=" font-black relative bottom-1 text-lg">.</span>
-					<p>{sla.slaString}</p>
-					<p className="hidden bg-blue-900 rounded-xl py-1 text-white md:block md:px-2 md:mx-2">
+					<p className="text-xs md:text-[15px]">{sla.slaString}</p>
+					<p className=" text-xs bg-blue-900 rounded-xl py-1 px-1  text-white md:text-[15px] md:px-2 md:mx-2">
 						{costForTwo}
 					</p>
 				</div>

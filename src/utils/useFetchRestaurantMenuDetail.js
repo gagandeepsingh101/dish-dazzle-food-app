@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { RESTAURANTS_MENU_API } from "./constant";
+import * as menuListData from "./restaurantMenuListMockData.json";
 
 export default useFetchRestaurantMenuDetail = (
 	resturantId,
@@ -10,14 +11,17 @@ export default useFetchRestaurantMenuDetail = (
 	}, []);
 	const fetchData = async () => {
 		try {
-			// setTimeout(async() => {
 			const menuListApi = await fetch(RESTAURANTS_MENU_API + resturantId);
 			const menuListResponse = await menuListApi.json();
-			const menuListData = menuListResponse.data.cards;
-			setMenuPageData(menuListData);
-			// }, 1000);
+			const menuListData = menuListResponse?.data?.cards;
+			setTimeout(() => {
+				setMenuPageData(menuListData);
+			}, 1000);
 		} catch (error) {
-			console.log(error);
+			alert("Menu List API Failed");
+			setTimeout(() => {
+				setMenuPageData(menuListData);
+			}, 1000);
 		}
 	};
 };
