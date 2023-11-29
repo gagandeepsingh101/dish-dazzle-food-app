@@ -2,9 +2,13 @@ import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import "remixicon/fonts/remixicon.css";
 import UserContext from "../utils/UserContext";
-
+import { useSelector } from "react-redux";
 const Header = () => {
-	const { loginStatus } = useContext(UserContext);
+	const totalCartItems = useSelector(
+		(state) => state.cartSlice.cartItems
+	)?.length;
+
+	const { loginStatus, userName } = useContext(UserContext);
 	const [tooggleMenu, setToggleMenu] = useState(false);
 	function handleToogleMenu(e) {
 		const navList =
@@ -29,21 +33,33 @@ const Header = () => {
 	}
 	return (
 		<div className="h-[15vh] w-full overflow-hidden bg-blue-200 flex items-center justify-between p-4 lg:px-8">
-			<div className="cursor-pointer flex items-center justify-center gap-2 md:flex-col">
+			<div className="w-2/12 cursor-pointer flex items-center justify-center gap-2 flex-col md:flex-row">
 				<img
-					className="w-10 h-10"
+					className="w-10 h-10 lg:w-20 lg:h-20"
 					srcSet="https://www.freeiconspng.com/uploads/food-icon-7.png"
 					alt=""
 				/>
-				<h4 className=" text-blue-950 font-bold text-sm lg:text-lg">
+				<h4 className=" hidden md:block text-blue-950 font-bold text-sm lg:text-xl">
 					DishDazzle
 				</h4>
 			</div>
-			<button onClick={(e) => handleToogleMenu(e)}>
+			<div className="flex w-9/12 items-end justify-end md:hidden gap-2 px-3">
+				<div className="cursor-pointer text-2xl font-bold text-blue-950 md:px-3 py-1 rounded-lg lg:text-2xl">
+					<Link to={"/cart"}>
+						<i className="ri-shopping-cart-2-fill"></i> <sup>{totalCartItems}</sup>
+					</Link>
+				</div>
+				<div className="cursor-pointer text-2xl font-bold text-blue-950 md:px-3 py-1 rounded-lg lg:text-2xl">
+					<Link to={loginStatus ? "/user/logout" : "/user/"}>
+						<i className="ri-user-fill"></i>
+					</Link>
+				</div>
+			</div>
+			<button className="w-1/12" onClick={(e) => handleToogleMenu(e)}>
 				<i className="ri-menu-line font-bold md:hidden text-3xl text-blue-950"></i>
 				<i className="ri-close-fill hidden font-bold md:hidden text-3xl text-blue-950"></i>
 			</button>
-			<ul className=" z-50  hidden absolute bg-blue-200 w-1/2 h-fit top-16 p-3 right-0 flex-col gap-3 items-center transition duration-500 ease-out rounded-bl-3xl md:opacity-100 md:translate-x-0 md:relative md:block md:flex-row md:w-fit md:h-fit md:rounded-bl-none md:bg-transparent md:flex md:flex-row md:top-0  lg:gap-8">
+			<ul className=" z-50  hidden absolute bg-blue-200 w-1/2 h-fit top-20 p-3 right-0 flex-col gap-3 items-center transition duration-500 ease-out rounded-bl-3xl md:opacity-100 md:translate-x-0 md:relative md:block md:flex-row md:w-fit md:h-fit md:rounded-bl-none md:bg-transparent md:flex md:flex-row md:top-0  lg:gap-8">
 				<li className="cursor-pointer text-lg font-bold hover:bg-blue-800 hover:text-white px-3 py-1 rounded-lg lg:text-2xl">
 					<Link to={"/"}>Home</Link>
 				</li>
@@ -53,11 +69,18 @@ const Header = () => {
 				<li className="cursor-pointer text-lg font-bold hover:bg-blue-800 hover:text-white px-3 py-1 rounded-lg lg:text-2xl">
 					<Link to={"/contact"}>Contact</Link>
 				</li>
-				<li className="cursor-pointer text-lg font-bold hover:bg-blue-800 hover:text-white px-3 py-1 rounded-lg lg:text-2xl">
-					<Link to={"/cart"}>Cart</Link>
+				<li className=" hidden md:block cursor-pointer text-2xl font-bold text-blue-950 py-1 rounded-lg lg:text-2xl">
+					<Link to={"/cart"}>
+						<i className="ri-shopping-cart-2-fill"></i> <sup>{totalCartItems}</sup>
+					</Link>
 				</li>
-				<li className="cursor-pointer text-lg font-bold hover:bg-blue-800 hover:text-white px-3 py-1 rounded-lg lg:text-2xl">
-					<Link to={loginStatus ? "/user/logout" : "/user/"}> {loginStatus ? "Logout" : "Login"}</Link>
+				<li className="hidden md:block cursor-pointer  font-bold text-blue-950 py-1 rounded-lg">
+					<Link to={loginStatus ? "/user/logout" : "/user/"}>
+						<div className="flex items-center gap-2">
+							<i className="ri-user-fill text-2xl"></i>
+							<p className="hidden md:block text-md"> {loginStatus ? userName.split(" ")[0] : "Login"}</p>
+						</div>
+					</Link>
 				</li>
 			</ul>
 		</div>

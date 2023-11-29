@@ -13,12 +13,12 @@ export default useFetchRestaurantMenuDetail = (
 		try {
 			const menuListApi = await fetch(RESTAURANTS_MENU_API + resturantId);
 			const menuListResponse = await menuListApi.json();
-			const menuListData = menuListResponse?.data?.cards;
+			const menuListData = menuListResponse?.data?.data?.cards;
+			console.log(menuListData);
 			setTimeout(() => {
 				setMenuPageData(menuListData);
 			}, 1000);
 		} catch (error) {
-			alert("Menu List API Failed");
 			setTimeout(() => {
 				setMenuPageData(menuListData);
 			}, 1000);

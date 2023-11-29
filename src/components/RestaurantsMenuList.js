@@ -23,6 +23,7 @@ const RestaurantsMenuList = () => {
 	);
 
 	const [openCategoryIndex, setOpenCategoryIndex] = useState(null);
+
 	return (
 		<div className=" h-[80vh] flex flex-col  py-2">
 			{menuPageData.length === 0 && <ShimmerUI uiType="RestaurantMenuList" />}

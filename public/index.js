@@ -12,24 +12,28 @@ import UserContext from "../src/utils/UserContext";
 import Login from "../src/components/LoginIn";
 import Logout from "../src/components/Logout";
 import RestaurantsMenuList from "../src/components/RestaurantsMenuList";
+import mainStore from "../src/utils/store/mainStore";
+import { Provider } from "react-redux";
 
 function App() {
 	const [userLoginName, setUserLoginName] = useState("Guest");
 	const [liveLoginStatus, setLiveLoginStatus] = useState(false);
 	return (
-		<UserContext.Provider
-			value={{
-				userName: userLoginName,
-				loginStatus: liveLoginStatus,
-				setLiveLoginStatus,
-				setUserLoginName,
-			}}>
-			<div className="relative w-screen h-screen overflow-hidden">
-				<Header></Header>
-				<Outlet></Outlet>
-				<Footer></Footer>
-			</div>
-		</UserContext.Provider>
+		<Provider store={mainStore}>
+			<UserContext.Provider
+				value={{
+					userName: userLoginName,
+					loginStatus: liveLoginStatus,
+					setLiveLoginStatus,
+					setUserLoginName,
+				}}>
+				<div className="relative w-screen h-screen overflow-hidden">
+					<Header></Header>
+					<Outlet></Outlet>
+					<Footer></Footer>
+				</div>
+			</UserContext.Provider>
+		</Provider>
 	);
 }
 

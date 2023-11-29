@@ -4,6 +4,7 @@ import SearchRestaurants from "../components/SearchRestaurants";
 import ShimmerUI from "../components/ShimmerUI";
 import { useFetchRestaurants } from "../utils/useFetchRestaurant";
 import FilterRestaurants from "../components/FilterRestaurants";
+import { Link } from "react-router-dom";
 const HomePage = () => {
 	const [defaultRestaurants, setDefaultRestaurants] = useState([]);
 	const [restaurantsList, setRestaurantsList] = useState([]);
@@ -25,9 +26,19 @@ const HomePage = () => {
 				{restaurantsList?.length === 0 && notFiltered === false && (
 					<ShimmerUI uiType={"ResturantCardList"} />
 				)}
-				{restaurantsList.length === 0 && notFiltered === true && (
-					<div className="w-full h-1/2 flex justify-center items-center">
-						<h1 className="text-3xl font-bold">No Results Found</h1>
+				{restaurantsList?.length === 0 && notFiltered === true && (
+					<div className="w-full h-full flex flex-col item-center gap-4 pt-4">
+						<h1 className="text-xl text-center md:text-3xl">No Resturants Found</h1>
+						<button
+						className="text-lg py-1 px-2  bg-blue-900 rounded-xl md:w-4/12 mx-auto text-white md:p-2 md:text-2xl"
+							onClick={() => {
+								setNotFiltered(false);
+								setTimeout(() => {
+									setRestaurantsList(defaultRestaurants);
+								}, 1000);
+							}}>
+							Go To Restaurant List
+						</button>
 					</div>
 				)}
 				{restaurantsList?.length > 0 &&

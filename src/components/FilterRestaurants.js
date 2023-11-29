@@ -14,7 +14,7 @@ const FilterRestaurants = (props) => {
 				case "cost":
 					return (
 						Number(restaurant?.info?.costForTwo.split(" ")[0].split("₹")[1]) <
-						250
+						200
 					);
 				case "veg":
 					return restaurant?.info?.veg === true;

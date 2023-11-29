@@ -12,19 +12,18 @@ export const useFetchRestaurants = (
 		try {
 			const response = await fetch(RESTAURANTS_API);
 			const data = await response.json();
+			console.log();
 			setTimeout(() => {
 				setDefaultRestaurants(
-					data?.data?.success?.cards[1]?.gridWidget?.gridElements?.infoWithStyle
+					data?.data?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
 						?.restaurants
 				);
 				setRestaurantsList(
-					data?.data?.success?.cards[1]?.gridWidget?.gridElements?.infoWithStyle
+					data?.data?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
 						?.restaurants
 				);
 			}, 1000);
 		} catch (error) {
-			console.log(error);
-			alert("Add extension cors to show data from swiggy");
 			setTimeout(() => {
 				setDefaultRestaurants(restaurants);
 				setRestaurantsList(restaurants);
