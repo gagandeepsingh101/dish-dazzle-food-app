@@ -1,6 +1,8 @@
 import React, { useContext } from "react";
 import { Outlet } from "react-router-dom";
 import UserContext from "../utils/UserContext";
+
+// This component is used to show the user page and logout page depending on the login status
 const UserPage = () => {
 	const {
 		loginStatus,

@@ -5,8 +5,9 @@ import "remixicon/fonts/remixicon.css";
 import { IMG_CDN_URL } from "../utils/constant";
 import CategoryList from "./CategoryList";
 import ShimmerUI from "./ShimmerUI";
+import { Link } from "react-router-dom";
 
-// Show Restaurant Menu List for Particular Restaurant Card
+// Show Restaurant Menu List for Particular Restaurant Card using Restaurant Id from router
 const RestaurantsMenuList = () => {
 	const { resturantId } = useParams();
 	const [menuPageData, setMenuPageData] = useState([]);
@@ -63,6 +64,16 @@ const RestaurantsMenuList = () => {
 						</div>
 					</div>
 					<div className="h-4/5 md:pb-11 lg:pb-14 overflow-y-scroll scrollbar-hide">
+						{categoryList?.length === 0 && (
+							<div className="w-full h-full flex flex-col item-center gap-4 pt-4">
+								<h1 className="text-xl text-center md:text-3xl">
+									No Menu List Found
+								</h1>
+								<Link to="/" className="text-lg text-center py-1 px-2  bg-blue-900 rounded-xl md:w-4/12 mx-auto text-white md:p-2 md:text-2xl">
+									Go To Restaurant List
+								</Link>
+							</div>
+						)}
 						{categoryList?.map((category, index) => (
 							<CategoryList
 								visibleCategoryIndex={(index) => setOpenCategoryIndex(index)}

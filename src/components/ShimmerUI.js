@@ -1,4 +1,6 @@
 import React from "react";
+
+// Creating a loading screen and that shown according to different uiType on page if the fetching data from API is not done 
 const ShimmerUI = (props) => {
 	const { uiType } = props;
 	return (

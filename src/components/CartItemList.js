@@ -1,13 +1,13 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import {
-	addItem,
 	removeItem,
-	clearAllItem,
 	incrementInItem,
 	decrementInItem,
 } from "../utils/store/cartSlice";
 import { IMG_CDN_URL } from "../utils/constant";
+
+// this component is used to show cart item list in the cart page with different functionalities like  add item , remove item , increment and decrement number of particular item which uses redux reducers for it
 const CartItemList = ( props) => {
     const {cartItem}=props;
 	const dispatch = useDispatch();
@@ -27,7 +27,7 @@ const CartItemList = ( props) => {
 				<p className="truncate flex gap-2">
 					<span className="font-bold">₹{cartItem?.totalAmountOfAllItem}</span>
 					<span>
-						({cartItem?.itemDetail?.info?.price / 100}×{cartItem?.totalNumberOfItem})
+						({cartItem?.totalAmountOfAllItem/cartItem?.totalNumberOfItem}×{cartItem?.totalNumberOfItem})
 					</span>
 				</p>
 				<div className="flex gap-2 bg-blue-900 text-white w-fit px-2 py-1">
@@ -47,7 +47,7 @@ const CartItemList = ( props) => {
 			</div>
 			<button
 				onClick={() => dispatch(removeItem(cartItem?.itemDetail?.info?.id))}
-				className="w-1/12 mr-2 text-blue-900 hover:scale-150 transition-all ease-in-out duration-300">
+				className="w-1/12 mr-2 text-white transition duration-500 ease-linear hover:text-blue-900 hover:scale-150 ">
 				<i className="ri-close-circle-fill text-4xl"></i>
 			</button>
 		</div>

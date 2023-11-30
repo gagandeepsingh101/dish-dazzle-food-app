@@ -2,6 +2,8 @@ import React from "react";
 import { IMG_CDN_URL } from "../utils/constant";
 import { useDispatch, useSelector } from "react-redux";
 import { addItem } from "../utils/store/cartSlice";
+
+// this component show the item list of a particular category in the menu list page using the redux state variable for it
 const CategoryItemList = (props) => {
 	const { categoryItemList } = props;
 
@@ -32,7 +34,7 @@ const CategoryItemList = (props) => {
 					/>
 					<button
 						onClick={() => dispatch(addItem(categoryItemList))}
-						className="hidden md:block bg-blue-900 text-white p-2 rounded-xl absolute top-0 lg:top-3">
+						className="hidden md:block bg-white text-blue-900 transition duration-500 ease-linear  p-2 rounded-xl absolute top-0 lg:top-3 hover:bg-blue-900 hover:text-white">
 						Add +
 					</button>
 				</div>
@@ -40,14 +42,14 @@ const CategoryItemList = (props) => {
 				<div className="w-4/12 h-full  lg:w-2/12 flex justify-center items-center">
 					<button
 						onClick={() => dispatch(addItem(categoryItemList))}
-						className="hidden md:block bg-blue-900 text-white p-2 rounded-xl">
+						className="hidden md:block bg-white text-blue-900 transition duration-500 ease-linear hover:bg-blue-900 hover:text-white p-2 rounded-xl">
 						Add +
 					</button>
 				</div>
 			)}
 			<button
 				onClick={() => dispatch(addItem(categoryItemList))}
-				className="block md:hidden text-xs w-1/4 rounded-xl p-1 bg-blue-900 text-white">
+				className="block md:hidden text-xs w-1/4 rounded-xl p-1 bg-white text-blue-900 transition duration-500 ease-linear hover:bg-blue-900 hover:text-white">
 				Add +
 			</button>
 		</div>

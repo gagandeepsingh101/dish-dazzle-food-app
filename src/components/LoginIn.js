@@ -1,11 +1,17 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";
 import UserContext from "../utils/UserContext";
 import { useNavigate } from "react-router-dom";
+import { showToast } from "../utils/notification";
+
+// This compoenet is used to show the login page which manipulate the state variables of ConText Api using from data
 const Login = () => {
-	let navigate=useNavigate();
-	const {setUserLoginName, loginStatus, setLiveLoginStatus } = useContext(UserContext);
+	let navigate = useNavigate();
+	const { setUserLoginName, loginStatus, setLiveLoginStatus } =
+		useContext(UserContext);
+
+	// Create validation for login form input values
 	const LoginValidate = Yup.object().shape({
 		name: Yup.string()
 			.required("Required")
@@ -19,19 +25,19 @@ const Login = () => {
 	return (
 		<div>
 			<Formik
-				initialValues={{name:"", email: "", password: "" }}
+				initialValues={{ name: "", email: "", password: "" }}
 				onSubmit={(values, { setSubmitting }) => {
-					setUserLoginName(values.name);
-					let userInfo = localStorage.getItem(values.email);
-					if (userInfo) {
-						userInfo = JSON.parse(userInfo);
-						if (userInfo.password === values.password) {
-							alert(userInfo.email);
-						}
-					}
-					navigate('/');
-                    setLiveLoginStatus(!loginStatus); 
-                    setSubmitting(false);
+					// Set the user login name and navigate to home page
+					showToast("Login Successfull");
+					setTimeout(() => {
+						setUserLoginName(values.name);
+						values.name = "";
+						values.email = "";
+						values.password = "";
+						setLiveLoginStatus(!loginStatus);
+						setSubmitting(false);
+						navigate("/");
+					}, 1000);
 				}}
 				validationSchema={LoginValidate}>
 				{({ errors, touched, handleSubmit, isSubmitting }) => (
@@ -40,7 +46,7 @@ const Login = () => {
 						onSubmit={handleSubmit}>
 						<label htmlFor="name">Enter Your Name</label>
 						<Field
-						type="name"
+							type="name"
 							name="name"
 							className={
 								"rounded-lg px-4 py-2 focus:outline-none border-2 w-full " +
@@ -50,7 +56,7 @@ const Login = () => {
 							}
 						/>
 						<p className="mb-4 h-5 text-red-500">
-						{errors.name && touched.name && errors.name}
+							{errors.name && touched.name && errors.name}
 						</p>
 						<label htmlFor="email">Enter Your Email</label>
 						<Field
@@ -81,9 +87,7 @@ const Login = () => {
 							{errors.password && touched.password && errors.password}
 						</p>
 						<button
-						onClick={()=>{
-							
-						}}
+							onClick={() => {}}
 							type="submit"
 							disabled={isSubmitting}
 							className="w-1/2  border-blue-300 hover:bg-blue-900 hover:text-white border-4 px-4 py-2 mx-auto lg:w-1/3">

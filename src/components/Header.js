@@ -3,13 +3,22 @@ import { Link } from "react-router-dom";
 import "remixicon/fonts/remixicon.css";
 import UserContext from "../utils/UserContext";
 import { useSelector } from "react-redux";
+import { APP_LOGO } from "../utils/constant";
+
+// Create Header Component which handle the toggle menu and directing the user to different pages
 const Header = () => {
+	// using the useSelector hook to get the total number of items in cart
 	const totalCartItems = useSelector(
 		(state) => state.cartSlice.cartItems
 	)?.length;
 
+	// using the useContext hook to get the user login status and name
 	const { loginStatus, userName } = useContext(UserContext);
+
+	// create state variable for toggle menu
 	const [tooggleMenu, setToggleMenu] = useState(false);
+
+	// this function is used to toggle the menu which which make visible or hidden a menu list according menu image
 	function handleToogleMenu(e) {
 		const navList =
 			e.target.parentElement.parentElement.getElementsByTagName("ul");
@@ -34,11 +43,7 @@ const Header = () => {
 	return (
 		<div className="h-[15vh] w-full overflow-hidden bg-blue-200 flex items-center justify-between p-4 lg:px-8">
 			<div className="w-2/12 cursor-pointer flex items-center justify-center gap-2 flex-col md:flex-row">
-				<img
-					className="w-10 h-10 lg:w-20 lg:h-20"
-					srcSet="https://www.freeiconspng.com/uploads/food-icon-7.png"
-					alt=""
-				/>
+				<img className="w-10 h-10 lg:w-20 lg:h-20" srcSet={APP_LOGO} alt="" />
 				<h4 className=" hidden md:block text-blue-950 font-bold text-sm lg:text-xl">
 					DishDazzle
 				</h4>
@@ -46,7 +51,8 @@ const Header = () => {
 			<div className="flex w-9/12 items-end justify-end md:hidden gap-2 px-3">
 				<div className="cursor-pointer text-2xl font-bold text-blue-950 md:px-3 py-1 rounded-lg lg:text-2xl">
 					<Link to={"/cart"}>
-						<i className="ri-shopping-cart-2-fill"></i> <sup>{totalCartItems}</sup>
+						<i className="ri-shopping-cart-2-fill"></i>{" "}
+						<sup>{totalCartItems}</sup>
 					</Link>
 				</div>
 				<div className="cursor-pointer text-2xl font-bold text-blue-950 md:px-3 py-1 rounded-lg lg:text-2xl">
@@ -71,14 +77,21 @@ const Header = () => {
 				</li>
 				<li className=" hidden md:block cursor-pointer text-2xl font-bold text-blue-950 py-1 rounded-lg lg:text-2xl">
 					<Link to={"/cart"}>
-						<i className="ri-shopping-cart-2-fill"></i> <sup>{totalCartItems}</sup>
+						<i className="ri-shopping-cart-2-fill"></i>
+						<sup>{totalCartItems}</sup>
 					</Link>
 				</li>
+				{
+					// show the user login name after login in login page
+				}
 				<li className="hidden md:block cursor-pointer  font-bold text-blue-950 py-1 rounded-lg">
 					<Link to={loginStatus ? "/user/logout" : "/user/"}>
 						<div className="flex items-center gap-2">
 							<i className="ri-user-fill text-2xl"></i>
-							<p className="hidden md:block text-md"> {loginStatus ? userName.split(" ")[0] : "Login"}</p>
+							<p className="hidden md:block text-md">
+								{" "}
+								{loginStatus ? userName.split(" ")[0] : "Login"}
+							</p>
 						</div>
 					</Link>
 				</li>

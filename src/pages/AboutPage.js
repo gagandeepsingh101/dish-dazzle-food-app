@@ -1,6 +1,8 @@
 import React from "react";
 import "remixicon/fonts/remixicon.css";
 
+
+// Generate Component About Page 
 const AboutPage = () => {
 	return (
 		<div className="h-[80vh] bg-blue-50 px-2 gap-2 flex flex-col-reverse justify-center md:py-5 md:gap-5 md:items-center  lg:gap-10 lg:flex-row">

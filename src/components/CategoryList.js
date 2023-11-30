@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import CategoryItemList from "./CategoryItemList";
 
+// this is show the category list in the menu list page with toggle item list of a particular category
 const CategoryList = (props) => {
 	let {
 		categoryList,
@@ -10,7 +11,9 @@ const CategoryList = (props) => {
 		openCategoryIndex,
 	} = props;
 	const categoryItemList = categoryList?.itemCards;
-	function handleShowItems(index, e) {
+
+	// this function is used to hide item list of a category which is visible
+	function handleShowItems(index) {
 		if (openCategoryIndex === index) {
 			visibleCategoryIndex(null);
 		} else {
@@ -21,8 +24,8 @@ const CategoryList = (props) => {
 	return (
 		<div className=" bg-blue-100 rounded-xl w-11/12 mx-auto  p-2 my-2">
 			<div
-				onClick={(e) => handleShowItems(index, e)}
-				className="flex justify-between p-4 rounded-xl bg-blue-300">
+				onClick={() => handleShowItems(index)}
+				className="flex justify-between p-4 rounded-xl bg-blue-300 cursor-pointer">
 				<h1 className=" truncate font-bold text-blue-900 text-sm md:text-lg">{categoryList?.title}</h1>
 				<i className="ri-triangle-fill text-blue-900 rotate-180"></i>
 			</div>

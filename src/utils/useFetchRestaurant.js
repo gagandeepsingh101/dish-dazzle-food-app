@@ -1,6 +1,9 @@
 import { useEffect } from "react";
 import { RESTAURANTS_API } from "./constant";
 import * as restaurants from "./restaurantCardMockData.json";
+
+// Fetching the restaurant list data from api and set the data in defaultRestaurants state and restaurantsList state after .5 sec
+// If the fetching api fails it set local data in defaultRestaurants state and restaurantsList state
 export const useFetchRestaurants = (
 	setDefaultRestaurants,
 	setRestaurantsList
@@ -12,7 +15,6 @@ export const useFetchRestaurants = (
 		try {
 			const response = await fetch(RESTAURANTS_API);
 			const data = await response.json();
-			console.log();
 			setTimeout(() => {
 				setDefaultRestaurants(
 					data?.data?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
@@ -22,12 +24,12 @@ export const useFetchRestaurants = (
 					data?.data?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
 						?.restaurants
 				);
-			}, 1000);
+			}, 500);
 		} catch (error) {
 			setTimeout(() => {
 				setDefaultRestaurants(restaurants);
 				setRestaurantsList(restaurants);
-			}, 1000);
+			}, 500);
 		}
 	};
 };

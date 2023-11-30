@@ -2,7 +2,13 @@ import React from "react";
 import { Formik, Form, Field } from "formik";
 import emailjs from "@emailjs/browser";
 import * as Yup from "yup";
+import { showToast } from "../utils/notification";
+
+
+// Create Contact Page Component
 const ContactPage = () => {
+
+	// Add From Validation on filling the data in input tag
 	const validateForm = Yup.object({
 		name: Yup.string()
 			.required("Required")
@@ -29,6 +35,8 @@ const ContactPage = () => {
 					initialValues={{ email: "", message: "", name: "" }}
 					validationSchema={validateForm}
 					onSubmit={(values, { setSubmitting }) => {
+
+						// send email from contact from to emailjs registered email which user id is iMIpxJjQ5-YTe1ZQd template id is template_ukvpp87 and service id is service_pdx2crh 
 						emailjs
 							.send(
 								"service_pdx2crh",
@@ -48,6 +56,10 @@ const ContactPage = () => {
 									console.log("FAILED...", error);
 								}
 							);
+						showToast("Feedback Sent Successfully");
+						values.email="";
+						values.message="";
+						values.name="";
 						setSubmitting(false);
 					}}>
 					{({
@@ -87,7 +99,8 @@ const ContactPage = () => {
 								{errors.email && touched.email && errors.email}
 							</p>
 							<label htmlFor="name">Enter Your Message</label>
-							<Field as="textarea"
+							<Field
+								as="textarea"
 								type="text"
 								name="message"
 								className={
