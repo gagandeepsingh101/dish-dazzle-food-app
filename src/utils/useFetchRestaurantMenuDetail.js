@@ -4,7 +4,7 @@ import * as menuListData from "./restaurantMenuListMockData.json";
 // fetching the menu list data from api for particular restaurant with id defined by resturantId and set the data in menuPageData state and menuPageData state after .5 sec
 // If the fetching api fails it set local data in menuPageData
 
-export default useFetchRestaurantMenuDetail = (
+export const useFetchRestaurantMenuDetail = (
 	resturantId,
 	setMenuPageData
 ) => {

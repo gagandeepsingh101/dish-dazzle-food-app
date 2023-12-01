@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useParams } from "react-router";
-import useFetchRestaurantMenuDetail from "../utils/useFetchRestaurantMenuDetail";
+import {useFetchRestaurantMenuDetail} from "../utils/useFetchRestaurantMenuDetail";
 import "remixicon/fonts/remixicon.css";
 import { IMG_CDN_URL } from "../utils/constant";
 import CategoryList from "./CategoryList";

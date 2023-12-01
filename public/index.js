@@ -22,24 +22,26 @@ function App() {
 	const [liveLoginStatus, setLiveLoginStatus] = useState(false);
 	const [noticationMessage, setNotificationMessage] = useState("");
 	return (
-		<Provider store={mainStore}>
-			<UserContext.Provider
-				value={{
-					noticationMessage,
-					setNotificationMessage,
-					userName: userLoginName,
-					loginStatus: liveLoginStatus,
-					setLiveLoginStatus,
-					setUserLoginName,
-				}}>
-				<div className="relative w-screen h-screen overflow-hidden">
-					<Toaster />
-					<Header></Header>
-					<Outlet></Outlet>
-					<Footer></Footer>
-				</div>
-			</UserContext.Provider>
-		</Provider>
+		<div>
+			<Provider store={mainStore}>
+				<UserContext.Provider
+					value={{
+						noticationMessage,
+						setNotificationMessage,
+						userName: userLoginName,
+						loginStatus: liveLoginStatus,
+						setLiveLoginStatus,
+						setUserLoginName,
+					}}>
+					<div className="relative w-screen h-screen overflow-hidden">
+						<Toaster />
+						<Header></Header>
+						<Outlet></Outlet>
+						<Footer></Footer>
+					</div>
+				</UserContext.Provider>
+			</Provider>
+		</div>
 	);
 }
 
