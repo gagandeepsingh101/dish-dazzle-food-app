@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import "remixicon/fonts/remixicon.css";
-import UserContext from "../utils/UserContext";
+import {UserContext} from "../utils/UserContext";
 import { useSelector } from "react-redux";
 import { APP_LOGO } from "../utils/constant";
 

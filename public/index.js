@@ -8,7 +8,7 @@ import CartPage from "../src/pages/CartPage";
 import AboutPage from "../src/pages/AboutPage";
 import ContactPage from "../src/pages/ContactPage";
 import UserPage from "../src/pages/UserPage";
-import UserContext from "../src/utils/UserContext";
+import {UserContext} from "../src/utils/UserContext";
 import Login from "../src/components/LoginIn";
 import Logout from "../src/components/Logout";
 import RestaurantsMenuList from "../src/components/RestaurantsMenuList";

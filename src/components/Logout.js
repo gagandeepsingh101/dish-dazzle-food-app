@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import UserContext from "../utils/UserContext";
+import {UserContext} from "../utils/UserContext";
 import { Link } from "react-router-dom";
 import { showToast } from "../utils/notification";
 
