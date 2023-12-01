@@ -8,7 +8,7 @@ import CartPage from "../src/pages/CartPage";
 import AboutPage from "../src/pages/AboutPage";
 import ContactPage from "../src/pages/ContactPage";
 import UserPage from "../src/pages/UserPage";
-import {UserContext} from "../src/utils/UserContext";
+import { UserContext } from "../src/utils/UserContext";
 import Login from "../src/components/LoginIn";
 import Logout from "../src/components/Logout";
 import RestaurantsMenuList from "../src/components/RestaurantsMenuList";
@@ -22,26 +22,24 @@ function App() {
 	const [liveLoginStatus, setLiveLoginStatus] = useState(false);
 	const [noticationMessage, setNotificationMessage] = useState("");
 	return (
-		<>
-			<Provider store={mainStore}>
-				<UserContext.Provider
-					value={{
-						noticationMessage,
-						setNotificationMessage,
-						userName: userLoginName,
-						loginStatus: liveLoginStatus,
-						setLiveLoginStatus,
-						setUserLoginName,
-					}}>
-					<div className="relative w-screen h-screen overflow-hidden">
+		<Provider store={mainStore}>
+			<UserContext.Provider
+				value={{
+					noticationMessage,
+					setNotificationMessage,
+					userName: userLoginName,
+					loginStatus: liveLoginStatus,
+					setLiveLoginStatus,
+					setUserLoginName,
+				}}>
+				<div className="relative w-screen h-screen overflow-hidden">
 					<Toaster />
-						<Header></Header>
-						<Outlet></Outlet>
-						<Footer></Footer>
-					</div>
-				</UserContext.Provider>
-			</Provider>
-		</>
+					<Header></Header>
+					<Outlet></Outlet>
+					<Footer></Footer>
+				</div>
+			</UserContext.Provider>
+		</Provider>
 	);
 }
 
