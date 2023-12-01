@@ -21,7 +21,7 @@ Welcome to our React food app project! This application utilizes the Swiggy API 
 - EmailJS - Sending Email from user form to linked email
 - react-hot-toast - showing notification on APP
 - remix icon package
-
+- Using Swiggy API from these [repo](https://github.com/n4ryn/food-wagon-backend) which help in bypass cors
 ## Getting Started
 
 Follow these instructions to get the project up and running on your local machine.
