@@ -18,7 +18,7 @@ Welcome to our React food app project! This application utilizes the Swiggy API 
 - Tailwind CSS - Styling Component
 - Formik - handling form data
 - Yup - adding from form validation
-- EmailJS - Sending Email from to from to listed text
+- EmailJS - Sending Email from user form to linked email
 - react-hot-toast - showing notification on APP
 - remix icon package
 
