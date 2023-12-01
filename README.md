@@ -1,6 +1,6 @@
 # Dish Dazzle
 
-Welcome to our React food app project! This application utilizes the Swiggy API to provide users with a seamless food ordering experience.
+Welcome to our Dish Dazzle food app project! This application utilizes the Swiggy API to provide users with a seamless food ordering experience.
 
 ## Features
 
