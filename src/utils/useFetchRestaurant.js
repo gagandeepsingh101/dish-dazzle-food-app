@@ -17,11 +17,11 @@ export const useFetchRestaurants = (
 			const data = await response.json();
 			setTimeout(() => {
 				setDefaultRestaurants(
-					data?.data?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
+					data?.data?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
 						?.restaurants
 				);
 				setRestaurantsList(
-					data?.data?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
+					data?.data?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
 						?.restaurants
 				);
 			}, 500);
