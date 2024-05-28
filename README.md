@@ -56,7 +56,7 @@ Follow these instructions to get the project up and running on your local machin
 Open your browser and visit http://localhost:124
 
 ### Deployment
- For Live Demo click [here](https://food-ordering-app-git-main-gagandeepsingh101.vercel.app/) 
+ For Live Demo click [here](https://dish-dazzle-food-app.onrender.com/) 
 
 
 ### Contributing
