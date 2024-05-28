@@ -13,11 +13,10 @@ const RestaurantsMenuList = () => {
 	const [menuPageData, setMenuPageData] = useState([]);
 	useFetchRestaurantMenuDetail(resturantId, setMenuPageData);
 
-	const resturantInfo = menuPageData[0]?.card?.card?.info;
-
-	const categoryList = (
-		menuPageData.length === 4 ? menuPageData[3] : menuPageData[2]
-	)?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
+	console.log(menuPageData[3])
+	const resturantInfo = menuPageData[2]?.card?.card?.info;
+	
+	const categoryList =menuPageData[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
 		(category) =>
 			category.card.card[`@type`] ===
 			"type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
@@ -30,8 +29,8 @@ const RestaurantsMenuList = () => {
 			{menuPageData.length === 0 && <ShimmerUI uiType="RestaurantMenuList" />}
 			{menuPageData.length > 0 && (
 				<div className="h-full py-1">
-					<div className="w-11/12 mx-auto my-1 h-1/5 flex justify-between px-4 py-2 items-center border-4 rounded-xl border-blue-200">
-						<div className="hidden h-full md:block md:w-2/12 lg:1/12">
+					<div className="w-11/12 mx-auto my-1 h-1/4 flex justify-between px-4 py-2 items-center border-4 rounded-xl border-blue-200">
+						<div className="hidden h-full md:block md:w-2/12 lg:w-1/12">
 							<img
 								src={IMG_CDN_URL + resturantInfo?.cloudinaryImageId}
 								className="md:h-full w-full rounded-xl
@@ -51,7 +50,7 @@ const RestaurantsMenuList = () => {
 								{resturantInfo?.sla?.lastMileTravelString}
 							</p>
 						</div>
-						<div className="w-4/12 md:w-2/12 h-full lg:w-1/12 border-2 border-blue-100 px-1 rounded-lg flex flex-col md:gap-2 justify-evenly items-center lg:py-3 ">
+						<div className="w-4/12 md:w-2/12 h-5/6 lg:w-1/12 border-2 border-blue-100 px-1 rounded-lg flex flex-col  justify-evenly items-center lg:py-3 ">
 							<p className="md:w-full md:h-full flex gap-1 text-green-700 font-bold items-center justify-center text-lg md:text-xl">
 								<i className="ri-star-fill  text-lg  md:text-2xl"></i>
 								{resturantInfo?.avgRatingString}
@@ -63,7 +62,7 @@ const RestaurantsMenuList = () => {
 							</p>
 						</div>
 					</div>
-					<div className="h-4/5 md:pb-11 lg:pb-14 overflow-y-scroll scrollbar-hide">
+					<div className="h-3/4 md:pb-11 lg:pb-14 overflow-y-scroll scrollbar-hide">
 						{categoryList?.length === 0 && (
 							<div className="w-full h-full flex flex-col item-center gap-4 pt-4">
 								<h1 className="text-xl text-center md:text-3xl">
